@@ -9,11 +9,11 @@ Use jQuery to do the following things with the https://my-json-server.typicode.c
     -Get the comments from post with id of 12 
     -note: comments are part of a different data model, you'll need to structure your endpoint to ask for all of the comments that belong to post #12
     -Get all the posts from user with id of 2
-    -Create a new post and log the id generated for it by the server
-    -Replace the post with id of 12 and render the responseJSON
-    -Update the title of post with id of 12 and render responseJSON
-    -Delete the post with id of 12 and render a success message
-    -Display a list of posts.
+    5. Create a new post and log the id generated for it by the server
+    6. Replace the post with id of 12 and render the responseJSON
+    7. Update the title of post with id of 12 and render responseJSON
+    8. Delete the post with id of 12 and render a success message
+    9. Display a list of posts.
         -When the user clicks on a post, display all the comments from that post
         -Display a link back to all posts
 -->
@@ -27,6 +27,49 @@ Use jQuery to do the following things with the https://my-json-server.typicode.c
 </head>
 
 <body>
+
+      <button id="button1">To get all post</button>
+      <br>
+      <br>
+      <button id="button2">Get post of id of 10</button>
+      <br>
+      <br>
+      <button id="button3">Get the comments from post with id of 12</button>
+      <br>
+      <br>
+      <button id="button4">Get all the posts from user with id of 2</button>
+      <br>
+      <br>
+      <button id="button5">Create a new post and log the id generated for it by the server</button>
+      <br>
+      <br>
+      <button id = "button6">Replace the post with id of 12 and render the responseJSON</button>
+      <br>
+      <br>
+      <button id = "button7">Update the title of post with id of 12 (does not exists) and render responseJSON</button>
+      <br>
+      <br>
+      <button id = "button7b">Update the title of post with id of 10 (success) and render responseJSON</button>
+      <br>
+      <br>
+      <button id = "button8">Delete the post with id of 12 and render a success message</button>
+      <br>
+      <br>
+      <button id = "button9">
+        Display a list of posts.
+        -When the user clicks on a post, display all the comments from that post
+        -Display a link back to all posts
+      </button>
+      <span id="listOfPosts"></span>
+      <br>
+      <br>
+
+    <div>
+      Output: <span id="output"></span>
+    </div>
+
+
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="exercise1.js"></script>
